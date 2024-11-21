@@ -1,0 +1,166 @@
+@media (min-width: 768px) {
+	.header-section {
+		flex-direction: row-reverse;
+		padding: 0;
+		.header-box {
+			margin-top: 0;
+			.social-media-boxes {
+				h1 {
+					position: absolute;
+					left: 10px;
+					top: 20px;
+					margin-left: 1rem;
+				}
+
+				.social-media-box {
+					position: absolute;
+					right: 0;
+					top: 10px;
+					z-index: 110;
+				}
+			}
+
+			.image-portfolio {
+				background: url('../images/image-profile-tablet.webp');
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
+				width: 322px;
+				height: 600px;
+				transform-origin: center center;
+			}
+		}
+
+		.circle {
+			z-index: 110;
+			top: 78%;
+			left: 90%;
+		}
+
+		.rings {
+			top: 15%;
+			right: 70%;
+			overflow: hidden;
+		}
+
+		.home {
+			text-align: left;
+			margin-left: 1rem;
+
+			.know-me {
+				margin-top: 13rem;
+				font-size: 6rem;
+
+				span {
+					text-decoration: underline;
+					text-decoration-color: $green;
+					text-underline-offset: 1.5rem;
+				}
+			}
+
+			.description {
+				margin-top: 4rem;
+				font-size: 1.8rem;
+			}
+
+			.contact {
+				margin-top: 4rem;
+			}
+		}
+	}
+
+	.experience {
+		padding: 1rem;
+		.line {
+			width: 95%;
+		}
+
+		.skills-boxes {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+			gap: 8px;
+			text-align: left;
+			padding-left: 1rem;
+
+			.skills {
+				.technology {
+					font-size: 4.5rem;
+				}
+			}
+		}
+
+		.line-2 {
+			display: none;
+		}
+
+		.rings {
+			left: 75%;
+			top: 80%;
+		}
+	}
+
+	.projects {
+		margin-top: 5rem;
+		padding: 2rem;
+
+		.projects-text {
+			h3 {
+				font-size: 4rem;
+			}
+		}
+
+		.projects-boxes {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+			gap: 8px;
+
+			.projects-box {
+				display: flex;
+				justify-content: center;
+				align-items: flex-start;
+				flex-direction: column;
+
+				img {
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	.contact-section {
+		.contact-box {
+			width: 445px;
+			margin: 2rem auto;
+			h3 {
+				font-size: 4rem;
+			}
+
+			p {
+				padding: 0 3rem;
+			}
+		}
+		.wrapper {
+			width: 445px;
+			margin: 0 auto;
+		}
+
+		.rings {
+			right: 85%;
+		}
+	}
+
+	.footer {
+		.footer-box {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-size: 2.5rem;
+			}
+		}
+	}
+}
